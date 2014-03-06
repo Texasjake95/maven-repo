@@ -11,7 +11,8 @@
       <version>1.0.16</version>
       <version>1.0.17</version>
       <version>1.0.18</version>
+      <version>1.0.dev</version>
     </versions>
-    <lastUpdated>20140226230352</lastUpdated>
+    <lastUpdated>20140306000129</lastUpdated>
   </versioning>
 </metadata>
