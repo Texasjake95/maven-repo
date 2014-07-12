@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.texasjake95</groupId>
+  <artifactId>MinecraftGradlePlugin</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>MinecraftGradlePlugin</name>
+  <description>Plugin for Texasjake95's minecraft mod gradle scripts</description>
+  <url>https://github.com/Texasjake95/MinecraftGradlePlugin</url>
+  <developers>
+    <developer>
+      <id>Texasjake95</id>
+      <name>Texasjake95</name>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/Texasjake95/MinecraftGradlePlugin/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git://github.com/Texasjake95/MinecraftGradlePlugin.git</connection>
+    <developerConnection>scm:git:git@github.com:Texasjake95/MinecraftGradlePlugin.git</developerConnection>
+    <url>https://github.com/Texasjake95/MinecraftGradlePlugin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.texasjake95</groupId>
+      <artifactId>Texasjake95Commons</artifactId>
+      <version>1.0.76</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.texasjake95</groupId>
+      <artifactId>GradlePlugin</artifactId>
+      <version>1.2-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.minecraftforge.gradle</groupId>
+      <artifactId>ForgeGradle</artifactId>
+      <version>1.2-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
