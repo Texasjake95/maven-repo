@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.texasjake95</groupId>
+  <artifactId>Texasjake95Commons</artifactId>
+  <version>1.0.78</version>
+  <name>Texasjake95Commons</name>
+  <description>Library for Texasjake95's projects</description>
+  <url>https://github.com/Texasjake95/texasjake95-commons</url>
+  <developers>
+    <developer>
+      <id>Texasjake95</id>
+      <name>Texasjake95</name>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/Texasjake95/texasjake95-commons/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git://github.com/Texasjake95/texasjake95-commons.git</connection>
+    <developerConnection>scm:git:git@github.com:Texasjake95/texasjake95-commons.git</developerConnection>
+    <url>https://github.com/Texasjake95/texasjake95-commons</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm-debug-all</artifactId>
+      <version>4.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>15.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
